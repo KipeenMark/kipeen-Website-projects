@@ -1,0 +1,108 @@
+.subscribe-button {
+    background-color:rgb(200, 0, 0);
+    color:white;
+    border:none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-right: 10px;
+    transition: opacitity 1s;
+        }
+        .join-button{
+            color:blue;
+            border-color:aqua;
+            background-color: white;
+            border-style: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right:10px;
+    transition:background-color 1s,color 1s;
+        }
+        .tweet-button{
+            background-color: rgb(50, 50, 211);
+            color:white;
+            height: 40px;
+            width: 115px;
+            border-radius:30px;
+            font-weight: bold;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            margin-right:10px ;
+        }
+        .subscribe-button:hover{
+            background-color: green;
+        }
+        .tweet-button:hover{
+            background-color: green;
+        }
+        .join-button:hover{
+            background-color: green;
+        }
+        .subscribe-button:active{
+            opacity:0.7 ;
+        }
+        .request-button{
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 115px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .request-button:hover{
+            background-color: aqua;
+            transition:background-color 1s;
+        }
+        .request-button:active{
+        color: red;
+        opacity:0.8 ;
+        }
+        .add-button{
+            background-color: yellow;
+            height: 40px;
+            width: 180px;
+            border-radius: 80px;
+            font-weight: bold;
+            cursor: pointer;
+    
+        }
+        .add-button:hover{
+            background-color: aqua;
+            transition: background-color 1s;
+        }
+        .add-button:active{
+            background-color: red;
+        }
+        .back-button{
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px ;
+            font-weight: bold;
+            font-size: 20px;
+            cursor: pointer;
+    
+        }
+        .back-button:hover{
+            background-color: red;
+            transition: background-color 1s;
+        }
+        .one-button{
+            border: none;
+            color: blue;
+            text-decoration: underline;
+            font-size: 20px;
+            background-color: white;
+            cursor: pointer;
+        }
+        .one-button:hover{
+            background-color: yellow;
+        }

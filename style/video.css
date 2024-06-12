@@ -1,0 +1,71 @@
+.thumbnail{
+width:100%;
+object-position: right;
+object-fit: contain;
+border-radius: 400px;
+cursor: pointer;
+}
+
+.video-title{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+.video-author{
+display:block;
+font-size: 14px;
+color:rgb(96, 96, 96) ;
+
+}
+.video-stats{
+    display: block;
+    font-size: 15px;
+    color:rgb(96, 96, 96) ;
+    margin-top: 4px;
+
+}
+.google-logo{
+   display: block; 
+   margin-left: 100px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+  
+}
+.search-box{
+    font-size: 20px;
+    width: 200px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.profile-logo{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.title-layout{
+    display: inline-block;
+    width: 200px;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+
+}
+.thumbnail-picture{
+    margin-bottom: 30px;
+}
+.profile-logo-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-preview-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}

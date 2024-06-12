@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Form handling pracice</title>
+    <style>
+        .submit-button{
+            cursor: pointer;
+            background-color: red;
+        }
+        .submit-button:hover{
+            background-color: blue;
+            transition: background-color 1s;
+        }
+    </style>
+</head>  
+<body>
+
+<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input class="submit-button" type="submit">
+</form>
+
+</body>
+</html>
